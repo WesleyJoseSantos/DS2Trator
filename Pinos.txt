@@ -1,0 +1,41 @@
+//*************************************************************************************************/
+//   Projeto    : Controle de Trator via DS2
+//   Arquivo    : Pinos.txt
+//   Descrição  : Descritivo dos pinos e onde eles devem ser ligados
+//   Data       : 21/05/2019
+//*************************************************************************************************/
+
+//Ligação dos pinos do controle DS2/*
+
+///////////////////////////////////////////////////
+
+     Saída de 3,3V para pino vermelho PS2
+     Saída de 5V para resistores de 1Kohm para PS2.
+     Pino D02 ao pino marrom PS2 (dados)
+     Pino D03 para pino amarelo PS2 (atenção)
+     Pino D04 para pino laranja PS2 (comando)
+     Pino D05 para PS2 pino azul (relógio)
+  
+*///////////////////////////////////////////////////
+
+//Ligação dos pinos do Arduino/*
+
+///////////////////////////////////////////////////
+//Pino: |Objetivo:
+//  0   |Reservado para Comunicações (RX)
+//  1   |Reservado para Comunicações (TX)
+//  2   |Led do Farol
+//  3   |Ponte H (ENA) - Velocidade das Rodas
+//  4   |Led do GiroFlex0
+//  5   |Servo Motor Direção
+//  6   |Servo Motor Ante-Braço
+//  7   |Ponte H (IN1) - Sentido de rotação 1
+//  8   |Ponte H (IN2) - Sentido de rotação 2
+//  9   |Servo Motor do Braço
+//  10  |DS2 - Atenção
+//  11  |DS2 - Comando
+//  12  |DS2 - Dados
+//  13  |DS2 - Relógio
+//  A0  |Buzzer
+//  A1  |Farol secundário
+*//////////////////////////////////////////////////
